@@ -22,3 +22,4 @@ rpm-ostree install cockpit-system cockpit-ostree cockpit-podman cockpit-networkm
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+echo "test" > /etc/testing.conf
